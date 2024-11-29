@@ -1,0 +1,30 @@
+﻿@model List<CarritoViewModel>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Curso</th>
+            <th>Usuario</th>
+            <th>Fecha de Inscripción</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NombreCurso</td>
+                <td>@item.NombreUsuario</td>
+                <td>
+                    <!-- Aquí puedes agregar botones para realizar la inscripción o eliminar del carrito -->
+                    <a href="@Url.Action("CrearInscripcion", "Inscripciones", new { id = item.Id })" class="btn btn-primary">Crear Inscripción</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Botón para crear las inscripciones desde el carrito -->
+<form method="post" asp-action="CreateFromCart">
+    <button type="submit" class="btn btn-success">Crear todas las inscripciones</button>
+</form>

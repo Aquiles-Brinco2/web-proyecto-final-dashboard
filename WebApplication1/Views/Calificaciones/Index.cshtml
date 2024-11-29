@@ -1,0 +1,141 @@
+﻿@model IEnumerable<WebApplication1.Models.Calificacione>
+
+@{
+    ViewData["Title"] = "Índice de Calificaciones";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --table-bg-color: #1e1e1e;
+            --table-hover-color: #2a2a2a;
+            --button-bg-color: #03dac6;
+            --button-hover-color: #00b3a6;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: var(--primary-color);
+        }
+
+        .btn-primary {
+            background-color: var(--button-bg-color);
+            color: var(--background-color);
+            border: none;
+            border-radius: 4px;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+            .btn-primary:hover {
+                background-color: var(--button-hover-color);
+            }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: var(--table-bg-color);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #444;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+        }
+
+        tr:hover {
+            background-color: var(--table-hover-color);
+        }
+
+        td a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            background-color: #444;
+            transition: background-color 0.3s ease;
+        }
+
+            td a:hover {
+                background-color: var(--button-hover-color);
+            }
+
+        .text-danger {
+            color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Índice de Calificaciones</h1>
+
+        <p>
+            <a asp-action="Create" class="btn-primary">Crear Nueva Calificación</a>
+        </p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.First().Calificacion)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().FechaCalificacion)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().IdCursoNavigation)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().IdUsuarioNavigation)</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Calificacion)</td>
+                        <td>@Html.DisplayFor(modelItem => item.FechaCalificacion)</td>
+                        <td>@Html.DisplayFor(modelItem => item.IdCursoNavigation.Titulo)</td>
+                        <td>@Html.DisplayFor(modelItem => item.IdUsuarioNavigation.Nombre)</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn-primary">Editar</a> |
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn-primary">Detalles</a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn-primary">Borrar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

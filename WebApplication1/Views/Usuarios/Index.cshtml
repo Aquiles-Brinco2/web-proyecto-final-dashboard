@@ -1,0 +1,178 @@
+﻿@model IEnumerable<WebApplication1.Models.Usuario>
+
+@{
+    var userType = Context.Session.GetString("UserType");
+    ViewData["Title"] = "Lista de Usuarios";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --card-bg-color: #1e1e1e;
+            --card-hover-color: #2a2a2a;
+            --button-color: #00b3a6;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: var(--primary-color);
+        }
+
+        .user-card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .user-card {
+            background-color: var(--card-bg-color);
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            .user-card:hover {
+                background-color: var(--card-hover-color);
+            }
+
+            .user-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+
+            .user-card h3 {
+                font-size: 22px;
+                margin: 15px 0;
+            }
+
+            .user-card p {
+                font-size: 14px;
+                color: #bbb;
+            }
+
+            .user-card .user-details {
+                font-size: 16px;
+                margin-top: 10px;
+            }
+
+        .btn-primary {
+            background-color: var(--button-color);
+            color: var(--background-color);
+            border: none;
+            border-radius: 4px;
+            padding: 10px 15px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: #00a38d;
+            }
+
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+            .back-link:hover {
+                color: var(--primary-color);
+            }
+
+        .admin-actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+            .admin-actions a {
+                color: var(--secondary-color);
+                text-decoration: none;
+                font-size: 14px;
+                transition: color 0.3s ease;
+            }
+
+                .admin-actions a:hover {
+                    color: var(--primary-color);
+                }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Lista de Usuarios</h1>
+
+        @if (userType == "administrador")
+        {
+            <p>
+                <a asp-action="Create" class="btn-primary">Crear Nuevo Usuario</a>
+            </p>
+        }
+
+        <div class="user-card-container">
+            @foreach (var item in Model)
+            {
+                <div class="user-card">
+                    @if (item.Imagen != null)
+                    {
+                        <img src="data:image/png;base64,@Convert.ToBase64String(item.Imagen)" alt="Imagen del usuario" />
+                    }
+
+                    <h3>@item.Nombre</h3>
+                    <p>@item.Email</p>
+                    <p>@item.Tipo</p>
+                    <div class="user-details">
+                        <p><strong>Fecha de Registro:</strong> @(item.FechaRegistro.HasValue ? item.FechaRegistro.Value.ToShortDateString() : "Fecha no disponible")</p>
+                    </div>
+
+                    <div class="admin-actions">
+                        @if (userType == "administrador")
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+
+        @if (userType == "administrador")
+        {
+            <a asp-action="Index" class="back-link">Volver a la lista</a>
+        }
+    </main>
+</body>
+</html>

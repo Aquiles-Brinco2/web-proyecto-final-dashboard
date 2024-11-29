@@ -1,0 +1,176 @@
+﻿@model IEnumerable<WebApplication1.Models.Curso>
+
+@{
+    ViewData["Title"] = "Mis Cursos";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --card-bg-color: #1e1e1e;
+            --card-hover-color: #2a2a2a;
+            --button-bg-color: #03dac6;
+            --button-hover-color: #00b3a6;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: var(--primary-color);
+        }
+
+        .curso {
+            background-color: var(--card-bg-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+            .curso:hover {
+                background-color: var(--card-hover-color);
+            }
+
+            .curso h3 {
+                font-size: 24px;
+                margin-bottom: 10px;
+                color: var(--secondary-color);
+            }
+
+            .curso p {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+
+        .btn {
+            background-color: var(--button-bg-color);
+            color: var(--background-color);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn:hover {
+                background-color: var(--button-hover-color);
+            }
+
+        .alumnos-list {
+            margin-top: 20px;
+            background-color: #333;
+            border-radius: 8px;
+            padding: 20px;
+            display: none;
+        }
+
+            .alumnos-list table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            .alumnos-list th, .alumnos-list td {
+                padding: 10px;
+                text-align: left;
+                border-bottom: 1px solid #444;
+            }
+
+            .alumnos-list th {
+                background-color: var(--primary-color);
+            }
+
+            .alumnos-list td a {
+                color: var(--secondary-color);
+                text-decoration: none;
+                padding: 5px 10px;
+                border-radius: 4px;
+                background-color: #444;
+                transition: background-color 0.3s ease;
+            }
+
+                .alumnos-list td a:hover {
+                    background-color: var(--button-hover-color);
+                }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Mis Cursos</h2>
+
+        @foreach (var curso in Model)
+        {
+            <div class="curso">
+                <h3>@curso.Titulo</h3>
+                <p>@curso.Descripcion</p>
+                <a href="/Calificaciones/Index" class="cta-button">Ver Alumnos Inscritos</a>
+
+                <div id="alumnos-@curso.Id" class="alumnos-list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Email</th>
+                                <th>Calificación</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var inscripcion in curso.Inscripciones)
+                            {
+                                var calificacion = curso.Calificaciones
+                                .FirstOrDefault(c => c.IdUsuario == inscripcion.IdUsuario);
+
+                                <tr>
+                                    <td>@inscripcion.IdUsuarioNavigation.Nombre</td>
+                                    <td>@inscripcion.IdUsuarioNavigation.Email</td>
+                                    <td>@(calificacion != null ? calificacion.Calificacion.ToString() : "Sin calificación")</td>
+                                    <td>
+                                        <a href="/Calificaciones/Index" class="btn">Editar nota</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
+
+    </div>
+
+    @section Scripts {
+        <script>
+            function mostrarAlumnos(cursoId) {
+                var alumnosList = document.getElementById("alumnos-" + cursoId);
+                alumnosList.style.display = alumnosList.style.display === "none" ? "block" : "none";
+            }
+        </script>
+    }
+
+</body>
+</html>

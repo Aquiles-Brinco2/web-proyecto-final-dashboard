@@ -1,0 +1,130 @@
+﻿@model WebApplication1.Models.Calificacione
+
+@{
+    ViewData["Title"] = "Crear Calificación";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --card-bg-color: #1e1e1e;
+            --card-hover-color: #2a2a2a;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #fff;
+            color: #000;
+        }
+
+        .btn-primary {
+            background-color: var(--secondary-color);
+            color: var(--background-color);
+            border: none;
+            border-radius: 4px;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: #00b3a6;
+            }
+
+        .text-danger {
+            color: #f44336;
+        }
+
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+            .back-link:hover {
+                color: var(--primary-color);
+            }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Crear Calificación</h1>
+
+        <h4>Calificacione</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-6">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label asp-for="IdCurso" class="control-label">Curso</label>
+                        <select asp-for="IdCurso" class="form-control" asp-items="ViewBag.IdCurso"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="IdUsuario" class="control-label">Alumno</label>
+                        <select asp-for="IdUsuario" class="form-control" asp-items="ViewBag.IdUsuario"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Calificacion" class="control-label"></label>
+                        <input asp-for="Calificacion" class="form-control" />
+                        <span asp-validation-for="Calificacion" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Crear" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <a asp-action="Index" class="back-link">Volver a la lista</a>
+    </main>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

@@ -1,0 +1,210 @@
+﻿@model IEnumerable<WebApplication1.Models.Usuario>
+
+@{
+    var userType = Context.Session.GetString("UserType");
+    var userId = Context.Session.GetString("UserId"); // Obtén el ID del usuario actual como string
+    int userIdInt = 0;
+    if (!string.IsNullOrEmpty(userId))
+    {
+        userIdInt = int.Parse(userId); // Convierte el userId a int si no es nulo o vacío
+    }
+    ViewData["Title"] = "Lista de Profesores";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --card-bg-color: #1e1e1e;
+            --card-hover-color: #2a2a2a;
+            --button-bg-color: #03dac6;
+            --button-hover-color: #00b3a6;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: var(--primary-color);
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+            .search-bar input {
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                margin-right: 10px;
+                font-size: 16px;
+                max-width: 400px;
+            }
+
+            .search-bar button {
+                padding: 10px 20px;
+                border-radius: 5px;
+                background-color: var(--secondary-color);
+                color: var(--background-color);
+                border: none;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+                .search-bar button:hover {
+                    background-color: var(--button-hover-color);
+                }
+
+        .profesor-card {
+            background-color: var(--card-bg-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+            .profesor-card:hover {
+                transform: translateY(-5px);
+                background-color: var(--card-hover-color);
+            }
+
+            .profesor-card img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 20px;
+            }
+
+        .profesor-info {
+            flex-grow: 1;
+        }
+
+        .profesor-name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .profesor-email {
+            font-size: 16px;
+            color: #b0b0b0;
+        }
+
+        .profesor-date {
+            font-size: 14px;
+            color: #b0b0b0;
+        }
+
+        .profesor-actions {
+            margin-top: 15px;
+        }
+
+            .profesor-actions a {
+                color: var(--secondary-color);
+                text-decoration: none;
+                margin-right: 10px;
+                padding: 5px 10px;
+                background-color: #333;
+                border-radius: 4px;
+                transition: background-color 0.3s ease;
+            }
+
+                .profesor-actions a:hover {
+                    background-color: var(--button-hover-color);
+                }
+
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+            .back-link:hover {
+                color: var(--primary-color);
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Profesores</h1>
+
+        @if (Model != null && Model.Any())
+        {
+            <div class="search-bar">
+                <form asp-action="Index" method="get">
+                    <input type="text" id="searchInput" name="searchString" placeholder="Buscar por nombre..." />
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+
+            @foreach (var profesor in Model)
+            {
+                // Mostrar solo el perfil del usuario actual si es un instructor
+                if ((userType == "instructor" && profesor.Id == userIdInt) || userType == "administrador")
+                {
+                    <div class="profesor-card">
+                        @if (profesor.Imagen != null)
+                        {
+                            <img src="data:image/png;base64,@Convert.ToBase64String(profesor.Imagen)" alt="Imagen del profesor" />
+                        }
+                        <div class="profesor-info">
+                            <div class="profesor-name">@profesor.Nombre</div>
+                            <div class="profesor-email">@profesor.Email</div>
+                            <div class="profesor-date">Fecha de Registro: @profesor.FechaRegistro?.ToString("MMMM dd, yyyy")</div>
+                        </div>
+                        @if (userType == "administrador")
+                        {
+                            <div class="profesor-actions">
+                                <a asp-action="Edit" asp-route-id="@profesor.Id">Editar</a>
+                                <a asp-action="Details" asp-route-id="@profesor.Id">Detalles</a>
+                                <a asp-action="Delete" asp-route-id="@profesor.Id" onclick="return confirm('¿Estás seguro de que deseas eliminar este profesor?');">Eliminar</a>
+                            </div>
+                        }
+                    </div>
+                }
+            }
+        }
+        else
+        {
+            <p>No hay profesores disponibles.</p>
+        }
+
+        @if (userType == "administrador")
+        {
+            <a asp-action="Index" class="back-link">Volver a la lista</a>
+        }
+        @if (userType == "instructor")
+        {
+            <a asp-controller="Cursoes" asp-action="MisCursosInstructor" class="back-link">Cursos Asignados</a>
+        }
+    </div>
+</body>
+</html>

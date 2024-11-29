@@ -1,0 +1,220 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var userType = Context.Session.GetString("UserType");
+}
+<link rel="stylesheet" href="~/css/site.css" />
+<html>
+<head>
+    <base href="http://localhost:5267/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameLearn - Master Game Development</title>
+    <style>
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --card-bg-color: #1e1e1e;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+            .nav-links a {
+                color: var(--text-color);
+                text-decoration: none;
+                font-weight: 500;
+                transition: color 0.3s ease;
+            }
+
+                .nav-links a:hover {
+                    color: var(--secondary-color);
+                }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: var(--background-color);
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+            .cta-button:hover {
+                background-color: #00b3a6;
+            }
+
+        .cart-button {
+            font-size: 24px;
+            padding: 10px 15px;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .cart-button:hover {
+                background-color: var(--secondary-color);
+            }
+
+        .hero {
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .feature-card {
+            background-color: var(--card-bg-color);
+            border-radius: 8px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+            .feature-card:hover {
+                transform: translateY(-5px);
+            }
+
+        footer {
+            background-color: var(--card-bg-color);
+            padding: 20px 0;
+            margin-top: 80px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="/" class="logo">ProGuías</a>
+            <div class="nav-links">
+                @if (userType == "administrador")
+                {
+                    <a asp-controller="Soportes" asp-action="Index">Soporte</a>
+                    <a asp-controller="Usuarios" asp-action="Estudiantes">Alumnos</a>
+                }
+                @if (userType == "estudiante")
+                {
+                    <a asp-controller="Soportes" asp-action="Create">Soporte</a>
+                    <a asp-controller="Cursoes" asp-action="MisCursos">Mis Cursos</a>
+                }
+                <a asp-controller="Usuarios" asp-action="Profesores">Profesores</a>
+                <a asp-controller="Comentarios" asp-action="Index">Comunidad</a>
+
+                @if (Context.Session.GetString("UserName") != null)
+                {
+                    <a href="/Account/Logout">Bienvenido, @Context.Session.GetString("UserName")</a>
+                }
+                else
+                {
+                    <a href="/Account/Login">Login</a>
+                }
+
+                <a href="/Register/Create" class="cta-button">Registro</a>
+
+                <a href="/Carrito/Cart" class="btn btn-primary">
+                    Carrito (<span>@TempData["CartItemCount"]  0</span> elementos)
+                </a>
+
+                <!-- Botón para Administradores -->
+                @if (userType == "administrador")
+                {
+                    <a href="/Dashboard/Index" class="cta-button">Ir al Dashboard</a>
+                }
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero fade-in">
+            <h1>Eleva tu nivel de juego</h1>
+            <p>Únete a la comunidad de aprendizaje en español de videojuegos más grande.</p>
+            <a href="/Cursoes/Index" class="cta-button">Explorar Cursos</a>
+        </section>
+
+        <section class="features">
+            <div class="feature-card fade-in">
+                <div class="feature-icon">🎮</div>
+                <h2>Cursos Interactivos</h2>
+                <p>Aprende viendo juegos en tiempo real explicados por nuestros instructores.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">👨‍🏫</div>
+                <h2>Instructores expertos</h2>
+                <p>Nuestros instructores de élite se encuentran entre el 1% del top global.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">🏆</div>
+                <h2>Resultado asegurado</h2>
+                <p>Si no alcanzas los resultados que te planteas, te devolvemos tu dinero.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">👥</div>
+                <h2>Comunidad</h2>
+                <p>Conéctate con otros jugadores con los que apoyarte.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ProGuías. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

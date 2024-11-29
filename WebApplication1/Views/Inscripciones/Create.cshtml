@@ -1,0 +1,73 @@
+﻿@model WebApplication1.Models.Inscripcione
+
+@{
+    var userType = Context.Session.GetString("UserType");
+    var userId = Context.Session.GetString("UserId"); // Obtener el IdUsuario desde la sesión
+    ViewData["Title"] = "Agregar Inscripción al Carrito";
+    Layout = "_Layout"; // Asegúrate de que estás usando el layout correcto
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        /* Estilos (los mismos que ya tenías) */
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Agregar Inscripción al Carrito</h1>
+
+        <h4>Inscripción</h4>
+        <hr />
+        <div class="row">
+            <div class="col-md-6">
+                <form asp-action="AddToCart" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <!-- Campo oculto para IdUsuario -->
+                    <div class="form-group">
+                        <label class="control-label">Usuario</label>
+                        <input type="text" class="form-control" value="@userId" readonly />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="IdCurso" class="control-label">Curso</label>
+                        <select asp-for="IdCurso" class="form-control" asp-items="ViewBag.IdCurso"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Agregar al Carrito" class="btn btn-primary" />
+                    </div>
+
+                    <a href="/Cursoes/Index" class="btn btn-secondary">Volver a Cursos</a>
+
+                    <a href="/Inscripciones/Cart" class="btn btn-secondary">Ir al Carrito</a>
+
+                </form>
+            </div>
+        </div>
+
+        <!-- Mensaje que aparece cuando se agrega al carrito -->
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success">@TempData["Message"]</div>
+        }
+
+        @if (userType == "administrador")
+        {
+            <a asp-action="Index" class="back-link">Volver a la lista</a>
+        }
+
+    </main>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

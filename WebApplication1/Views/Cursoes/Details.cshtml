@@ -1,0 +1,128 @@
+﻿@model WebApplication1.Models.Curso
+
+@{
+    ViewData["Title"] = "Detalles del Curso";
+    var userType = Context.Session.GetString("UserType");
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --card-bg-color: #1e1e1e;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            transition: background-color 0.3s ease;
+        }
+
+        .container {
+            background-color: var(--card-bg-color);
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--secondary-color);
+            margin-bottom: 30px;
+        }
+
+        .course-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        dl {
+            text-align: center; /* Centrado del texto */
+            margin: 0;
+        }
+
+        dt {
+            font-weight: bold;
+            margin-top: 15px; /* Espaciado superior */
+        }
+
+        dd {
+            font-weight: bold; /* Negrita para las descripciones */
+            margin-bottom: 15px; /* Espaciado inferior */
+        }
+
+        .btn {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            border: none;
+            border-radius: 4px;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+            .btn:hover {
+                background-color: var(--secondary-color);
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Detalles del Curso</h1>
+
+        @if (@Model.Imagen != null)
+        {
+            <img src="data:image/png;base64,@Convert.ToBase64String(@Model.Imagen)" alt="Imagen del curso" style="max-width: 200px;" />
+        }
+
+
+        <div>
+            <dl class="row" style="text-align: center;">
+                <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Id)</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.Id)</dd>
+
+                <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Titulo)</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.Titulo)</dd>
+
+                <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Descripcion)</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.Descripcion)</dd>
+
+                <dt class="col-sm-2">@Html.DisplayNameFor(model => model.FechaCreacion)</dt>
+                <dd class="col-sm-10">@Html.DisplayFor(model => model.FechaCreacion)</dd>
+
+            </dl>
+        </div>
+
+        <div>
+            @if (userType == "administrador")
+            {
+                <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn">Editar</a>
+            }
+            @if (userType == "estudiante")
+            {
+                <a asp-controller="Inscripciones" asp-action="Create" class="btn">Inscríbete</a>
+            }
+        </div>
+    </div>
+</body>
+</html>

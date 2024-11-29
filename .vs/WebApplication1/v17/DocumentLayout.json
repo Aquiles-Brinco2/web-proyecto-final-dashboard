@@ -1,0 +1,1329 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\inscripcionesporcurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\inscripcionesporcurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\inscripcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\inscripcione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\inscripcione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\inscripciones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\inscripciones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\inscripciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\inscripciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\cursosinscripcionesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\cursosinscripcionesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\calificacionesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\calificacionesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\cursoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\cursoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\cursocategorium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\cursocategorium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\plataformacursoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\plataformacursoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\inscripciones\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\inscripciones\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\carritoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\carritoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\certificadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\certificadoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\leccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\leccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\calificacione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\calificacione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\inscripciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\inscripciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\cursocategoriumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\cursocategoriumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\cursoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\cursoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\cursoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\cursoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\soportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\soportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\soportes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\soportes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\cursoes\\materiales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\cursoes\\materiales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\materialescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\materialescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\leccione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\leccione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\cursoes\\miscursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\cursoes\\miscursos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\cursoes\\certificado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\cursoes\\certificado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\usuarios\\profesores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\usuarios\\profesores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\soportes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\soportes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\usuarios\\estudiantes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\usuarios\\estudiantes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\cursoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\cursoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\soportes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\soportes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\soportes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\soportes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\cursoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\cursoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\comentarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\comentarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\cursoes\\miscursosinstructor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\cursoes\\miscursosinstructor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\lecciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\lecciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\calificaciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\calificaciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\calificacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\calificacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\lecciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\lecciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\materiales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\materiales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\cursoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\cursoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\cursocategoriums\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\cursocategoriums\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\calificaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\calificaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\calificaciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\calificaciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\miscursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\miscursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\comentarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\comentarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\cursoes\\editarnota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\cursoes\\editarnota.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\materiales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\materiales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\materiales\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\materiales\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\facturas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\facturas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\facturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\facturas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\pagoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\pagoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\soportes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\soportes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\comentarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\comentarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\categorias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\categorias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\views\\categorias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\categorias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|c:\\users\\aquiles-brinco\\desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\webapplication1\\controllers\\pagoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD11EAC-B308-4927-B0B6-AD682DE7EDF6}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\pagoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T19:52:18.27Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Inscripcione.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\Inscripcione.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Inscripcione.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\Inscripcione.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Inscripcione.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:23:25.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InscripcionesController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\InscripcionesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\InscripcionesController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\InscripcionesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\InscripcionesController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAAwHUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T23:51:57.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:23:03.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:52:29.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Inscripciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Inscripciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Inscripciones\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Inscripciones\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T22:43:55.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FacturasController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\FacturasController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\FacturasController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\FacturasController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\FacturasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:40:23.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:36:27.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T14:23:32.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T13:53:11.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\DashboardService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\DashboardService.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\DashboardService.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\DashboardService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:48:19.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InscripcionesPorCurso.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\InscripcionesPorCurso.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\InscripcionesPorCurso.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\InscripcionesPorCurso.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\InscripcionesPorCurso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T22:50:36.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CursoesController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\CursoesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CursoesController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\CursoesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CursoesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T05:23:11.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Inscripciones\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Inscripciones\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Inscripciones\\Details.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Inscripciones\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T22:44:17.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CalificacionesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\CalificacionesViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\CalificacionesViewModel.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\CalificacionesViewModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\CalificacionesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:47:16.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T19:52:25.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CursosInscripcionesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\CursosInscripcionesViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\CursosInscripcionesViewModel.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\CursosInscripcionesViewModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\CursosInscripcionesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:46:42.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CursoCategorium.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\CursoCategorium.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\CursoCategorium.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\CursoCategorium.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\CursoCategorium.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:42:45.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PlataformaCursosContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\PlataformaCursosContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\PlataformaCursosContext.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\PlataformaCursosContext.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\PlataformaCursosContext.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAiwCoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T11:33:12.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAwwNsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T05:15:01.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SoportesController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\SoportesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\SoportesController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\SoportesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\SoportesController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAwFUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:10:19.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Inscripciones\\Cart.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Inscripciones\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Inscripciones\\Cart.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Inscripciones\\Cart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T14:07:02.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CertificadoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\CertificadoViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\CertificadoViewModel.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\CertificadoViewModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\CertificadoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T22:30:18.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T14:07:46.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CarritoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\CarritoViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\CarritoViewModel.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\CarritoViewModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\CarritoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T14:36:18.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Calificacione.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\Calificacione.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Calificacione.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\Calificacione.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Calificacione.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T14:32:20.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Inscripciones\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Inscripciones\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Inscripciones\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Inscripciones\\Create.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwC8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:44:08.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LeccionesController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\LeccionesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\LeccionesController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\LeccionesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\LeccionesController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAwwDgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T03:53:30.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Cursoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Cursoes\\Index.cshtml",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAIwEQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T21:43:01.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CursoCategoriumsController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\CursoCategoriumsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CursoCategoriumsController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\CursoCategoriumsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CursoCategoriumsController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T15:15:53.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Soportes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Soportes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Soportes\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Soportes\\Edit.cshtml",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAkwJEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T15:48:04.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MaterialesController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\MaterialesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\MaterialesController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\MaterialesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\MaterialesController.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAAwDEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T03:52:08.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Cursoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Cursoes\\Create.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAIBJwGsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:52:45.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Leccione.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\Leccione.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Leccione.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\Leccione.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Leccione.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:44:07.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MisCursos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\MisCursos.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Cursoes\\MisCursos.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\MisCursos.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Cursoes\\MisCursos.cshtml",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAgwKIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T06:36:43.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Materiales.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Materiales.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Cursoes\\Materiales.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Materiales.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Cursoes\\Materiales.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAgwG8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T12:45:47.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Profesores.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Usuarios\\Profesores.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Usuarios\\Profesores.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Usuarios\\Profesores.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Usuarios\\Profesores.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T12:42:58.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Estudiantes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Usuarios\\Estudiantes.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Usuarios\\Estudiantes.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Usuarios\\Estudiantes.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Usuarios\\Estudiantes.cshtml",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAEwKYAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T18:26:32.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AQIAAH4AAAAAAAAAAIBJwJQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T14:21:32.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Usuarios\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Usuarios\\Edit.cshtml",
+              "ViewState": "AQIAAI0AAAAAAAAAAIBJwLAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T18:05:18.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Certificado.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Certificado.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Cursoes\\Certificado.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Certificado.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Cursoes\\Certificado.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T22:35:31.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T12:10:21.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Soportes\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Soportes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Soportes\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Soportes\\Index.cshtml",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAUwJ8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T14:11:53.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Comentarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Comentarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Comentarios\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Comentarios\\Create.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAIBJwHIAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:54:43.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAIBJwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:32:00.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "MisCursosInstructor.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\MisCursosInstructor.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Cursoes\\MisCursosInstructor.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\MisCursosInstructor.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Cursoes\\MisCursosInstructor.cshtml",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAgwKEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T16:08:47.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Cursoes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Cursoes\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T18:10:48.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Soportes\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Soportes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Soportes\\Details.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Soportes\\Details.cshtml",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAmwIEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T15:23:17.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Cursoes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Cursoes\\Edit.cshtml",
+              "ViewState": "AQIAAHgAAAAAAAAAAIBJwGYAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T11:57:06.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Calificaciones\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Calificaciones\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Calificaciones\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Calificaciones\\Create.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAIBJwEwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T12:02:50.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CalificacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\CalificacionesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CalificacionesController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\CalificacionesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CalificacionesController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:43:19.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Soportes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Soportes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Soportes\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Soportes\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJ4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T15:54:03.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Materiales\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Materiales\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Materiales\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Materiales\\Create.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAIBJwGQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T11:46:23.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Lecciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Lecciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Lecciones\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Lecciones\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwIoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:43:17.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Lecciones\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Lecciones\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Lecciones\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Lecciones\\Create.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAIBJwGcAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T11:43:40.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "MisCursos.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\MisCursos.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\MisCursos.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\MisCursos.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\MisCursos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:27:53.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Cursoes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\Details.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Cursoes\\Details.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAIBJwFMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T05:10:34.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\CursoCategoriums\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\CursoCategoriums\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\CursoCategoriums\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\CursoCategoriums\\Create.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAIBJwF0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T04:08:22.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Calificaciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Calificaciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Calificaciones\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Calificaciones\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T11:59:26.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Comentarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Comentarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Comentarios\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Comentarios\\Index.cshtml",
+              "ViewState": "AQIAAHgAAAAAAAAAAIBJwJcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:55:57.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Calificaciones\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Calificaciones\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Calificaciones\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Calificaciones\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T12:28:34.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CategoriasController.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAAwDkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:00:27.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "EditarNota.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\EditarNota.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Cursoes\\EditarNota.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Cursoes\\EditarNota.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Cursoes\\EditarNota.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T16:12:22.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Soportes\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Soportes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Soportes\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Soportes\\Create.cshtml",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAYwHIAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T22:08:59.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ComentariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\ComentariosController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ComentariosController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\ComentariosController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ComentariosController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwDkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T02:27:12.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Comentario.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\Comentario.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Comentario.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\Comentario.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Comentario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T03:14:17.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Materiales\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Materiales\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Materiales\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Materiales\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T05:07:47.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAALASAAAAAAAAAAAWwMUSAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-22T16:02:05.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Materiales\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Materiales\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Materiales\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Materiales\\Index.cshtml",
+              "ViewState": "AQIAAGkAAAAAAAAAAIBJwHcAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:41:43.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Facturas\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Facturas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Facturas\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Facturas\\Create.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAIBJwH4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:39:07.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Facturas\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Facturas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Facturas\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Facturas\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:39:02.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Pagoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Pagoes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Pagoes\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Pagoes\\Create.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAIBJwG4AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:33:46.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Categorias\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Categorias\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Categorias\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Categorias\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T11:49:09.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Categorias\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Categorias\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Categorias\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Categorias\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T12:17:22.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Categorias\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Categorias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Views\\Categorias\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Categorias\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T12:17:22.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Models\\Categoria.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:28:00.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "PagoesController.cs",
+              "DocumentMoniker": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\PagoesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\PagoesController.cs",
+              "ToolTip": "C:\\Users\\Aquiles-Brinco\\Desktop\\practica\\web3\\final_web_carrito-main\\final_web_carrito-main\\final_web_carrito-main\\WebApplication1\\Controllers\\PagoesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\PagoesController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwEAAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:21:13.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

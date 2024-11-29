@@ -1,0 +1,158 @@
+﻿@model WebApplication1.Models.Soporte
+
+@{
+    ViewData["Title"] = "Eliminar Soporte";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --card-bg-color: #1e1e1e;
+            --card-hover-color: #2a2a2a;
+            --button-bg-color: #03dac6;
+            --button-hover-color: #00b3a6;
+            --danger-bg-color: #b00020;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: var(--primary-color);
+            margin-bottom: 40px;
+        }
+
+        .soporte-delete {
+            background-color: var(--card-bg-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: var(--button-bg-color);
+            color: var(--background-color);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn:hover {
+                background-color: var(--button-hover-color);
+            }
+
+        .btn-danger {
+            background-color: var(--danger-bg-color);
+        }
+
+            .btn-danger:hover {
+                background-color: #a10018;
+            }
+
+        .back-link {
+            color: var(--secondary-color);
+            font-size: 16px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+            .back-link:hover {
+                color: var(--primary-color);
+            }
+
+        dl {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 10px;
+        }
+
+        dt {
+            font-weight: bold;
+            color: var(--text-color);
+        }
+
+        dd {
+            font-size: 16px;
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Eliminar Soporte</h1>
+
+        <div class="soporte-delete">
+            <h3>¿Está seguro de que desea eliminar este soporte?</h3>
+            <h4>Detalles del Soporte</h4>
+            <hr />
+
+            <dl>
+                <dt>Mensaje:</dt>
+                <dd>@Model.Mensaje</dd>
+
+                <dt>Fecha del Mensaje:</dt>
+                <dd>@Model.FechaMensaje</dd>
+
+                <dt>Estado:</dt>
+                <dd>@Model.Estado</dd>
+
+                <dt>Usuario:</dt>
+                <dd>@Model.IdUsuarioNavigation.Nombre</dd>
+            </dl>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <input type="submit" value="Eliminar" class="btn btn-danger" />
+                </div>
+                <div>
+                    <a asp-action="Index" class="back-link">Volver a la lista</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

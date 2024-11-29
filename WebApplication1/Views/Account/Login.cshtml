@@ -1,0 +1,186 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameLearn - Login</title>
+    <style>
+
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --card-bg-color: #1e1e1e;
+            --hover-color: #7c4dff;
+            --error-color: #cf6679;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            transition: background-color 0.3s ease;
+        }
+
+        .container {
+            background-color: var(--card-bg-color);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--secondary-color);
+            margin-bottom: 1.5rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--text-color);
+        }
+
+        input {
+            width: 100%;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: var(--text-color);
+        }
+
+        input:focus {
+            outline: 2px solid var(--secondary-color);
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            border: none;
+            border-radius: 4px;
+            padding: 0.75rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: var(--hover-color);
+        }
+
+        .forgot-password {
+            text-align: right;
+            margin-top: 0.5rem;
+        }
+
+        .forgot-password a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+        .signup-link {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .signup-link a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+        .error-message {
+            color: var(--error-color);
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .logo svg {
+            width: 100px;
+            height: 100px;
+        }
+
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <svg viewBox="0 0 100 100" class="floating">
+            <circle cx="50" cy="50" r="45" fill="var(--primary-color)" />
+            <path d="M30 40 L50 30 L70 40 L70 60 L50 70 L30 60 Z" fill="var(--secondary-color)" />
+            <circle cx="50" cy="50" r="10" fill="var(--background-color)" />
+        </svg>
+    </div>
+    <h1>ProGuías</h1>
+    <form asp-action="Login" method="post" id="loginForm">
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Log In</button>
+    </form>
+    
+    <div class="forgot-password">
+        <a href="@Url.Action("Index", "ForgotPassword")">Olvidaste la contraseña?</a>
+    </div>
+    <div class="signup-link">
+        <p>No tienes una cuenta? <a href="@Url.Action("Create", "Register")">Regístrate</a></p>
+    </div>
+
+    <!-- El contenedor del mensaje de error -->
+    @if (ViewData["ErrorMessage"] != null)
+    {
+        <div id="errorMessage" class="error-message">
+            @ViewData["ErrorMessage"]
+        </div>
+    }
+</div>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function (event) {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var errorMessage = document.getElementById("errorMessage");
+
+            if (!email || !password) {
+                event.preventDefault();
+                errorMessage.textContent = "Por favor, completa todos los campos.";
+            }
+        });
+    </script>
+</body>
+
+</html>

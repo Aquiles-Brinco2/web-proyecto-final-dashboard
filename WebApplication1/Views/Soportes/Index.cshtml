@@ -1,0 +1,174 @@
+﻿@model IEnumerable<WebApplication1.Models.Soporte>
+
+@{
+    ViewData["Title"] = "Soporte";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --card-bg-color: #1e1e1e;
+            --card-hover-color: #2a2a2a;
+            --button-bg-color: #03dac6;
+            --button-hover-color: #00b3a6;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: var(--primary-color);
+        }
+
+        .soporte {
+            background-color: var(--card-bg-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+            .soporte:hover {
+                background-color: var(--card-hover-color);
+            }
+
+            .soporte h3 {
+                font-size: 24px;
+                margin-bottom: 10px;
+                color: var(--secondary-color);
+            }
+
+            .soporte p {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+
+        .btn {
+            background-color: var(--button-bg-color);
+            color: var(--background-color);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn:hover {
+                background-color: var(--button-hover-color);
+            }
+
+        .acciones-list {
+            margin-top: 20px;
+            background-color: #333;
+            border-radius: 8px;
+            padding: 20px;
+            display: none;
+        }
+
+            .acciones-list table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            .acciones-list th, .acciones-list td {
+                padding: 10px;
+                text-align: left;
+                border-bottom: 1px solid #444;
+            }
+
+            .acciones-list th {
+                background-color: var(--primary-color);
+            }
+
+            .acciones-list td a {
+                color: var(--secondary-color);
+                text-decoration: none;
+                padding: 5px 10px;
+                border-radius: 4px;
+                background-color: #444;
+                transition: background-color 0.3s ease;
+            }
+
+                .acciones-list td a:hover {
+                    background-color: var(--button-hover-color);
+                }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Soporte</h2>
+
+        @foreach (var soporte in Model)
+        {
+            <div class="soporte">
+                <h3>@soporte.Mensaje</h3>
+                <p>@soporte.FechaMensaje</p>
+                <p><strong>Estado:</strong> @soporte.Estado</p>
+                <p><strong>Usuario:</strong> @soporte.IdUsuarioNavigation.Nombre</p>
+
+                <a href="#" class="btn" onclick="mostrarAcciones(@soporte.Id)">Ver Acciones</a>
+
+                <div id="acciones-@soporte.Id" class="acciones-list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Acción</th>
+                                <th>Fecha</th>
+                                <th>Detalles</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Editar</td>
+                                <td>@soporte.FechaMensaje</td>
+                                <td><a asp-action="Details" asp-route-id="@soporte.Id">Editar Solicitud</a></td>
+                            </tr>
+                            <tr>
+                                <td>Eliminar</td>
+                                <td>@soporte.FechaMensaje</td>
+                                <td><a asp-action="Delete" asp-route-id="@soporte.Id" class="btn">Eliminar Solicitud</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
+
+    </div>
+
+    @section Scripts {
+        <script>
+            function mostrarAcciones(soporteId) {
+                var accionesList = document.getElementById("acciones-" + soporteId);
+                accionesList.style.display = accionesList.style.display === "none" ? "block" : "none";
+            }
+        </script>
+    }
+
+</body>
+</html>

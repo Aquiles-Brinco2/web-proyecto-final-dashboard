@@ -1,0 +1,129 @@
+﻿@model WebApplication1.Models.Soporte
+
+@{
+    ViewData["Title"] = "Detalles de Soporte";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --card-bg-color: #1e1e1e;
+            --card-hover-color: #2a2a2a;
+            --button-bg-color: #03dac6;
+            --button-hover-color: #00b3a6;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: var(--primary-color);
+            margin-bottom: 40px;
+        }
+
+        .soporte-detail {
+            background-color: var(--card-bg-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+            .soporte-detail h4 {
+                font-size: 24px;
+                color: var(--primary-color);
+                margin-bottom: 20px;
+            }
+
+            .soporte-detail dl {
+                display: grid;
+                grid-template-columns: 150px 1fr;
+                gap: 10px;
+            }
+
+            .soporte-detail dt {
+                font-weight: bold;
+            }
+
+            .soporte-detail dd {
+                font-size: 16px;
+                color: var(--text-color);
+            }
+
+        .btn {
+            background-color: var(--button-bg-color);
+            color: var(--background-color);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn:hover {
+                background-color: var(--button-hover-color);
+            }
+
+        .back-link {
+            color: var(--secondary-color);
+            font-size: 16px;
+            text-decoration: none;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+            .back-link:hover {
+                color: var(--primary-color);
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Detalles de Soporte</h1>
+
+        <div class="soporte-detail">
+            <h4>@Model.Mensaje</h4>
+
+            <dl>
+                <dt>Fecha del Mensaje:</dt>
+                <dd>@Model.FechaMensaje</dd>
+
+                <dt>Estado:</dt>
+                <dd>@Model.Estado</dd>
+
+                <dt>Usuario:</dt>
+                <dd>@Model.IdUsuarioNavigation.Nombre</dd>
+            </dl>
+        </div>
+
+        <div>
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn">Editar</a>
+            <a asp-action="Index" class="back-link">Volver a la lista</a>
+        </div>
+    </div>
+
+</body>
+</html>

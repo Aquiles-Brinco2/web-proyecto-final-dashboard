@@ -1,0 +1,155 @@
+﻿@model IEnumerable<WebApplication1.Models.Leccione>
+
+@{
+    ViewData["Title"] = "Lista de Lecciones";
+    Layout = "_Layout"; // Especifica el layout a usar
+    var userType = Context.Session.GetString("UserType");
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --card-bg-color: #1e1e1e;
+            --card-hover-color: #2a2a2a;
+            --button-hover-color: #00b3a6;
+            --border-color: #444;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background-color: var(--secondary-color);
+            color: var(--background-color);
+            border: none;
+            border-radius: 4px;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+            .btn-primary:hover {
+                background-color: var(--button-hover-color);
+            }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+            .table th, .table td {
+                padding: 12px 15px;
+                text-align: left;
+                border: 1px solid var(--border-color);
+            }
+
+            .table th {
+                background-color: var(--card-bg-color);
+                color: var(--text-color);
+            }
+
+            .table tr:nth-child(even) {
+                background-color: var(--card-hover-color);
+            }
+
+            .table tr:hover {
+                background-color: var(--card-hover-color);
+            }
+
+            .table td a {
+                color: var(--primary-color);
+                text-decoration: none;
+                padding: 5px 10px;
+                border-radius: 4px;
+                transition: background-color 0.3s ease;
+            }
+
+                .table td a:hover {
+                    background-color: var(--secondary-color);
+                    color: var(--background-color);
+                }
+
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+            .back-link:hover {
+                color: var(--primary-color);
+            }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Lista de Lecciones</h1>
+
+        <p>
+            <a asp-action="Create" class="btn btn-primary">Crear Nueva Lección</a>
+        </p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Titulo)</th>
+                    <th>@Html.DisplayNameFor(model => model.Contenido)</th>
+                    <th>@Html.DisplayNameFor(model => model.Orden)</th>
+                    <th>@Html.DisplayNameFor(model => model.IdCursoNavigation)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Titulo)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Contenido)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Orden)</td>
+                        <td>@Html.DisplayFor(modelItem => item.IdCursoNavigation.Titulo)</td> 
+                        @if (userType != "estudiante")
+                        {
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                            </td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <a asp-action="Index" class="back-link">Volver a la lista</a>
+    </main>
+</body>
+</html>

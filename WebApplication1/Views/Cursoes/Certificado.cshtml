@@ -1,0 +1,62 @@
+﻿@model WebApplication1.Models.CertificadoViewModel
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificado de Finalización</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .certificate {
+            border: 5px solid #6200ea;
+            border-radius: 10px;
+            padding: 30px;
+            background-color: #ffffff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #6200ea;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate">
+        <h1>Certificado de Finalización</h1>
+        <h2>Este certificado se otorga a:</h2>
+        <h2>@Model.AlumnoNombre</h2>
+        <p>Por haber completado satisfactoriamente el curso:</p>
+        <h2>@Model.TituloCurso</h2>
+        <p>Fecha de finalización: @DateTime.Now.ToString("dd 'de' MMMM 'de' yyyy")</p>
+        <div class="footer">
+            <p>ProGuías</p>
+            <p>www.ProGuías.com</p>
+        </div>
+    </div>
+</body>
+</html>

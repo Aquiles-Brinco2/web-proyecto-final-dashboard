@@ -1,0 +1,155 @@
+﻿@model IEnumerable<WebApplication1.Models.Comentario>
+
+@{
+    ViewData["Title"] = "Índice de Comentarios";
+    var userType = Context.Session.GetString("UserType");
+
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        :root {
+            --primary-color: #6200ea;
+            --secondary-color: #03dac6;
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --card-bg-color: #1e1e1e;
+            --card-hover-color: #2a2a2a;
+            --border-color: #444;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: var(--secondary-color);
+        }
+
+        .btn-primary {
+            background-color: var(--secondary-color);
+            color: var(--background-color);
+            border: none;
+            border-radius: 4px;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: #00b3a6;
+            }
+
+        .comment-list {
+            margin-top: 30px;
+        }
+
+        .comment-card {
+            background-color: var(--card-bg-color);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+            .comment-card:hover {
+                background-color: var(--card-hover-color);
+            }
+
+        .comment-header {
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .comment-body {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .comment-meta {
+            font-size: 14px;
+            color: #b0b0b0;
+        }
+
+        .comment-actions {
+            margin-top: 10px;
+        }
+
+            .comment-actions a {
+                color: var(--secondary-color);
+                text-decoration: none;
+                font-weight: bold;
+                margin-right: 10px;
+            }
+
+                .comment-actions a:hover {
+                    color: var(--primary-color);
+                }
+
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+            .back-link:hover {
+                color: var(--primary-color);
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Índice de Comentarios</h1>
+
+        <p>
+            <a asp-action="Create" class="btn btn-primary">Crear Nuevo Comentario</a>
+        </p>
+
+        <div class="comment-list">
+            @foreach (var item in Model)
+            {
+                <div class="comment-card">
+                    <div class="comment-header">
+                        @Html.DisplayFor(modelItem => item.IdCursoNavigation.Titulo)
+                        - Comentario de: @Html.DisplayFor(modelItem => item.IdUsuarioNavigation.Nombre)
+                    </div>
+                    <div class="comment-body">
+                        @Html.DisplayFor(modelItem => item.Contenido)
+                    </div>
+                    <div class="comment-meta">
+                        <span>Fecha: @String.Format("{0:MMMM dd, yyyy}", item.FechaComentario)</span>
+                    </div>
+                    @if (userType == "administrador"){
+                    <div class="comment-actions">
+                        <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                    </div>
+                    }
+                </div>
+            }
+        </div>
+
+    </div>
+</body>
+</html>
